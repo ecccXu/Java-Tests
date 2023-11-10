@@ -9,7 +9,7 @@ public class Tri {
     public boolean is_tri(){
         boolean tf = (a+b>c && a+c>b && b+c>a);
         if (!tf){
-            System.out.println("error:不能构成三角形!!");
+            System.out.println("NO");
         }
         return tf;
     }
