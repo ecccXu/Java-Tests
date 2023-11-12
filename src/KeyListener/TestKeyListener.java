@@ -10,6 +10,7 @@ public class TestKeyListener extends JFrame {
         super(sTitle);
         Container c = getContentPane();
         c.setLayout(new GridLayout(4,1,2,2));
+
         //选择角色
         JPanel panel1 = new JPanel();
         panel1.setLayout(new FlowLayout(FlowLayout.LEFT));
@@ -41,6 +42,7 @@ public class TestKeyListener extends JFrame {
         JPanel panel4 = new JPanel();
         panel4.setLayout(new FlowLayout(FlowLayout.RIGHT));
         panel4.add(new JButton("登录"));
+//        panel4.add(new JButton("注册"));//输入两次密码，第一次输入之后变为不可见
         panel4.add(new JButton("取消"));
         c.add(panel4);
     }
