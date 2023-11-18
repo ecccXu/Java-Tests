@@ -21,7 +21,7 @@ public class BubbleSort {
     }
 
     public static int[] bubbleSort(int[] arrays){
-        int temp=0;
+        int temp;
         //外层循环，判断需要循环多少次
         for(int i=0;i<arrays.length-1;i++){
             //内层循环，如果第一个数比第二个数大，则交换
@@ -40,7 +40,7 @@ public class BubbleSort {
     //冒泡排序的优化
     //利用判断语句，最后一次判断去掉
     public static int[] bubbleSort1(int[] arrays){
-        int temp=0;
+        int temp;
         //外层循环，判断需要循环多少次
         for(int i=0;i<arrays.length-1;i++){
             //内层循环，如果第一个数比第二个数大，则交换
